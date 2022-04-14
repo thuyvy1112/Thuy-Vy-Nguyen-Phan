@@ -1,0 +1,180 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 12px 0;
+    background-color: rgba(0, 0, 0, 0.164);
+    position: absolute;
+    width: 100%;
+}
+.logo a{
+    color: black;
+    text-decoration: none;
+}
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    margin: 0 24px;
+}
+.nav li a{
+    color: black;
+    text-decoration: none;
+}
+.nav li a:hover{
+    text-decoration: underline;
+}
+.banner{
+    height: 100vh;
+    background: url("img/cover\ resize.jpg");
+    background-size: cover;
+}
+.text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-52%,-50%);
+    color: black;
+}
+.text-box p{
+    margin: 35px 0;
+}
+/* main  */
+.sec-prj{
+    background-color: rgba(206, 201, 201, 0.333);
+}
+.sec-prj h2{
+    text-align: center;
+    padding: 40px;
+}
+.box{
+    display: flex;
+    width: 300px;
+    height: 375px;
+}
+.feature1{
+    height: 375px;
+    overflow: hidden;
+    background-color: aqua;
+    position: relative;
+}
+.feature1 img{
+    width: 100%;
+}
+.overlay1{
+    color: white;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 375px;
+    opacity: 0.3;
+    transition-duration: 0.3s;
+    visibility: hidden;
+}
+.feature1:hover .overlay1{
+    visibility: visible;
+}
+/* prj  */
+input{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 24px;
+    outline: none;
+    margin-top: 4px;
+}
+.ques h2{
+    padding: 40px;
+    text-align: center;
+}
+.ques{
+    display: flex;
+    background-color: rgba(206, 201, 201, 0.333);
+}
+.chair{
+    width: 300px;
+    height: 375px;
+    overflow: hidden;
+    margin-left: 0;
+    position: relative;
+}
+.chair img{
+    width: 100%;
+}
+.name{
+    padding: 8px;
+}
+.number{
+    padding: 8px;
+}
+.sec-prj .nutorder{
+    text-align: center;
+    padding: 40px;
+}
+.form{
+    font-size: 50px;
+}
+button{
+    width: 165px;
+    padding: 8px 0;
+    background-color: burlywood;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    margin-top: 12px;
+    margin-left: 100px;
+}
+/* Q&A  */
+.consult{
+    background-color: rgba(206, 201, 201, 0.333);
+}
+.banner2 text{
+    position: absolute;
+}
+.banner2{
+    background: url("img/d828e9132655365.61ae083f56730.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 1000px;
+}
+.text-center{
+    text-align: center;
+}
+.textbox2 p{
+    margin: 15px 0 40px;
+}
+.textbox2 a{
+    padding: 12px;
+}
+/* consult  */
+.footer{
+    background-color: rgba(206, 201, 201, 0.333);
+    height: 200px;
+    padding: 20px 0;
+    display: flex;
+}
+.contact li{
+   list-style: none;  
+   margin: 10px 0;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.banner-content{
+   padding: 10px 0;
+}
+
+
+
+
